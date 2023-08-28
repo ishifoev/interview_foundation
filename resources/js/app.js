@@ -26,7 +26,9 @@ Vue.use(BootstrapVue);
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 import GitHubTokenForm from './components/GitHubTokenForm.vue';
+import FetchStarredButton from './components/FetchStarredButton.vue';
 Vue.component('github-token-form', GitHubTokenForm);
+Vue.component('fetch-starred-button', FetchStarredButton);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

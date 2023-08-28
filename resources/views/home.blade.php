@@ -7,6 +7,8 @@
 
         <div class="card-body">
         <github-token-form></github-token-form>
+
+        <fetch-starred-button></fetch-starred-button>
     </div>
 </div>
 @endsection

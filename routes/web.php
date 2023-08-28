@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::middleware(['auth'])->group(function () {
     Route::post('/save-token', 'GithubEncryptController');
     Route::get('/decrypted-token', 'GithubDecryptController');
+    Route::get('/starred-repos', 'GithubRepoController');
     //Route::post('/save-token', 'UserController');
 });
 Auth::routes();

@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        GrahamCampbell\GitHub\GitHubServiceProvider::class,
         /*
          * Application Service Providers...
          */
