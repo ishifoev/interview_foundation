@@ -1,7 +1,8 @@
 # Interview Foundation Build
 
 
-[![Build Status](https://travis-ci.org/alnutile/interview_foundation.svg?branch=master)](https://travis-ci.org/alnutile/interview_foundation)
+[![Build Status](https://app.travis-ci.com/ishifoev/interview_foundation.svg?branch=mainline)](https://app.travis-ci.com/ishifoev/interview_foundation)
+
 
 This is a vanilla Laravel 7 install
 
