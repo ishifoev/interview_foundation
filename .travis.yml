@@ -5,11 +5,11 @@ php:
 
 services:
   - mysql
-  
+
 before_script:
   - cp .env.travis .env
   - composer install
-  - mysql -e 'CREATE DATABASE IF NOT EXISTS interview_foundation;'
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
   - php artisan migrate
 
 script:
